@@ -1,0 +1,72 @@
+---
+title: ValueTracks Services
+---
+
+  {% include hero.html caption="Oversight and Control of all your Cyber Risks" 
+                       message="We deliver tailored and effective cybersecurity services to help our clients navigate the evolving threats and increasing regulatory pressures."
+  %}
+
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+          <h3>Strategic Risks & Opportunities</h3>
+          <p>Decide what is important, and establish a clear direction of travel for your organisation.</p>
+        </div>
+        <div class="feature">
+          <h3>Efficient Control and Assurance</h3>
+          <p>Use Automation and AI to ensure operational control and assurance success.</p>
+        </div>
+        <div class="feature">
+          <h3>Seamless Integration</h3>
+          <p>Leverage the robust Azure, Power Platform and AI Modelverse features to integrate with your systems of choice.</p>
+        </div>
+    </div>
+  </section>
+
+<section class="features">
+    <div class="container">
+        {% for cat in site.data.services %}
+        <div class="feature">
+            <table>
+            <tr>
+                <td>
+                    {% assign number = cat.label %}
+                    {% include circle-svg.md %}
+                    </svg>
+                </td>
+                <td>
+                <h3>{{ cat.name }}</h3>
+                </td>
+            </tr>
+          
+            <tr>
+              <td>&nbsp;</td>
+              <td>{% assign snippet = "snippet-" | append: cat.key | append: ".html" %}
+              {% include {{ snippet }} %}
+              </td>
+            </tr>
+            </table>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+          <div class="feature" style="background-color:#fde2d6; border-radius:20px">
+            <h3 style="color:black">Modelverse Cloud Platform</h3>
+            <p>We provide our digitally-enabled advisory services using the unique Modelverse platform</p>
+            &nbsp; 
+            <center><a href="https://modelverse.online" class="btn viz">Go to Modelverse</a></center>    
+          </div>  <!-- end of feature --> 
+        </div> <!-- end of container -->
+  
+     </div> <!-- end of feature -->
+</section> <!-- end of section -->
+
+  {% include testimonial.html 
+      message="Reshma and Team helped us to close our gaps."
+      who="-Christiaan Rood, CEO LeydenJar Technologies"
+  %}
+
+

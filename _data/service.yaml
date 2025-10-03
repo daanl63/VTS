@@ -1,0 +1,21 @@
+sc:
+- name: Security Strategy
+  desc: We develop a Security Strategy for your organization that builds a bridge between management and IT / security staff. This puts you on a clear and sound track for the future, and enables you to cater for your NIS2 accountabilities.
+
+- name: (C)ISO-as-a-Service
+  desc: We provide your organization a (part-time) CISO or ISO (as a Service). This enables you to benefit from the wealth of IT and Security experience embedded in our team at an affordable price point.
+
+- name: Crisis Management
+  desc: We prepare your organisation in the area of crisis management by facilitating so-called Table-Top exercises based on real-world security incident scenarios.
+  more: service-ttx.html
+
+si:
+- name: Security and Sustainability Due Dilligence
+  desc: We provide you with independent due dilligence regarding your Merger and Acquisation investments. This could save up to 15% on your investment if your target has significant security and or compliance gaps.
+
+- name: Portfolio and Architecture Management
+  desc: We help you to get a strong grip on your Portfolio of IT systems using insights from Enterprise Architecture and Portfolio Management. Security and Compliance improvements often benefits from a streamlining of your portfolio.
+
+- name: Internal Audit
+  desc: Through our certified staff, we offer independent Internal Audit services for Security and Compliance to provide you with the best possible starting point for Certification Audits in industry frameworks like ISO, NIS2, NEN, and DORA.
+  

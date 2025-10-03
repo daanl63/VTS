@@ -1,0 +1,46 @@
+---
+title: Services
+---
+
+{%  include hero.html 
+    caption="Our Services" 
+    message="Our advisory services have a proven track-record in different sectors, across seven European countries and are digitally enabled though the innovative Modelverse solution."
+%}
+
+<section class="features">
+    <div class="container">
+        {% for cat in site.data.services %}
+        <div class="feature">
+            <table>
+            <tr>
+                <td>
+                    {% assign number = cat.label %}
+                    {% include circle-svg.md %}
+                    </svg>
+                </td>
+                <td>
+                <h3>{{ cat.name }}</h3>
+                </td>
+            </tr>
+            {% for service in site.data.service[cat.key] %}
+            <tr>
+              <td>&nbsp;</td>  
+              <td>  <div class="container">
+                        <div class="feature" style="background-color:#fde2d6; border-radius:20px">
+                            <h3 style="color:black">{{ service.name }}</h3>
+                            <p> {{ service.desc }} </p>
+                            {% if service.more %}
+                            &nbsp;
+                            <center><a href='{{service.more}}' class="btn viz">More</a></center>
+                            {% endif%}
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr> <td>&nbsp;</td></tr>
+            {% endfor %}
+            </table>
+        </div>
+        {% endfor %}
+    </div>
+</section>

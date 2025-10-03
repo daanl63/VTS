@@ -1,0 +1,14 @@
+- name: Home
+  link: index.html
+- name: About
+  link: about.html
+- name: Cases
+  link: cases.html
+  hidden: true
+- name: Services
+  link: services.html
+- name: Team
+  link: team.html
+- name: Contact
+  link: contact.html
+  
