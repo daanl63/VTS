@@ -1,0 +1,14 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+timezone: "Europe/Amsterdam"
+dob: "2021"
+company: "ValueTracks Services B.V."
+coc-number: "78379253" 
+deployurl: "https://valuetracks.io"
+linkedinurl:  "https://nl.linkedin.com/company/valuetracks-services-bv"
+email: "partners@valuetracks.io"
+label: "VTS"
